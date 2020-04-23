@@ -33,9 +33,10 @@ public class fairy {
     /**
      * get name.
      * @return name.
+     * "" should be name; i need to change to commit
      */
     public String getName() {
-        return name;
+        return "";
     }
     /**
      * get level
