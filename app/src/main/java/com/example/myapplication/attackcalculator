@@ -1,0 +1,6 @@
+public class AttackCalculator {
+    private healthOfMonster;
+    Attackcalculator(String monster) {
+
+    }
+}
