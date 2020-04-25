@@ -24,6 +24,10 @@ public class fairy {
      * @param a attack.
      * @param i interval.
      */
+    //其实我觉得如果我要计算英雄的伤害那每秒伤害肯定是a/i
+    //然后我在另一个class里call的话 fairy first = new fairy（first）
+    // 我觉得不一定要在construction里给定属性，属性应该是固定好的
+    // 先不设定升级，你看一下能不能按照我在attackcalculator的方式比如先固定5个英雄
     public fairy(String n, int l, int a, double i) {
         name = n;
         level = l;
